@@ -1,0 +1,196 @@
+html {
+    font-size: 100%;
+  }
+  body {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-family: "Open sans", Helvetica, Arial, sans-serif;
+    color: #454545;
+    padding: 0;
+  }
+  .navbar {
+    border-width: 1px 0;
+    -webkit-border-radius: 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0;
+    -moz-background-clip: padding;
+    border-radius: 0;
+    background-clip: padding-box;
+    width: 100%;
+  }
+ 
+  .navbar-collapse .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .navbar-collapse .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-collapse .navbar-nav > li > a {
+    padding: 20px 30px;
+  }
+  .navbar-default {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #34540dcf;
+  font-size: large;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #020202;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+/*//*header*/
+#head {
+  background: #f4f4f4 url(back2.jpg) top center;
+  background-size: cover;
+  color: #7C7C7C;
+  padding: 30px 0 35px 0;
+}
+#head img.img-circle {
+  display: block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border: 9px solid rgba(0, 0, 0, 0.267);
+  margin: 0 auto;
+}
+#head .title {
+  font-family: Alice, Georgia, serif;
+  font-size: 49px;
+  font-size: 3.0625rem;
+}
+#head .title {
+  text-decoration: none;
+  color: #080808d0;
+}
+#head .tagline {
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  color: #4b4b4b;
+  margin: 5px 0 0;
+}
+#head .tagline b {
+  font-weight: normal;
+}
+#head .tagline a {
+  color: #343232;
+}
+.home #head {
+  padding: 90px 0;
+}
+.home #head .title {
+  font-size: 49px;
+  font-size: 3.0625rem;
+}
+.home #head .tagline {
+  font-size: 16px;
+  font-size: 1rem;
+  margin: 15px 0 0;
+}
+/*about////*/
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  
+}
+.about-img img{
+  width: 40vw;
+}
+.heading{
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: Alice, Georgia, serif;
+  color: #454545;
+}
+.about-content h3{
+  text-align: center;
+}
+.about-content p{
+  text-align: left;
+  
+}
+/***portfolio*/
+
+.portfolio h2{
+margin-bottom: 4rem ;
+margin-top: 4rem;
+
+}
+.portfolio-container{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  margin: 3px auto;
+  
+
+}
+.portfolio-container .portfolio-box{
+ width:100%;
+ background-color: rgba(235, 237, 236, 0.361);
+ position: relative;
+ box-shadow: 10px 10px 10px rgba(105, 105, 105, 0.808);
+ color: #2c2b2b;
+ margin-bottom: 5rem;
+}
+.portfolio-box img{
+ width:100% ;
+ 
+}
+/*footer*/
+
+
+.footer {
+  
+  height: 80vh;
+  margin-bottom: 100px;
+  background: #060d0454;
+  padding: 10px 70px 100px 0px;
+  font-size: 16px;
+  color: #0f0e0ea9;
+  box-shadow: 20px 20px 20px rgba(6, 0, 0, 0.808);
+
+}
+.row
+{
+  padding: 10px 0 10px 90px;
+}
+
+
+#footer a {
+  color: #f5f1f1;
+}
+#footer a:hover {
+  color: #010101;
+}
+#footer h3.widget-title {
+  font-size: 50px;
+  font-family: Alice, Georgia, serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #131313;
+  margin: 100px 5px 50px;
+}
+
+.follow-me-icons {
+  font-size: 40px;
+}
+.follow-me-icons i {
+  float:center;
+  margin: 0 10px 0 0;
+}
